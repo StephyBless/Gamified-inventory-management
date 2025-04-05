@@ -1,0 +1,53 @@
+.role-selection-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color:aliceblue;/* Your original background color */
+  }
+  
+  /* Left side GIF section */
+  .gif-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Optional: keep transparent or light background */
+  }
+  
+  .role-gif {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Right side role content */
+  .role-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg,#8F87F1,#C68EFD,#E9A5F1,#FED2E2); /* Your preferred color */
+  }
+  
+  .role-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .role-buttons button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .role-buttons button:hover {
+    background-color: #357abd;
+  }

@@ -1,0 +1,39 @@
+.assign-task-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .assign-task-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .assign-task-container input,
+  .assign-task-container select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .assign-task-container button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .assign-task-container button:hover {
+    background-color: #218838;
+  }
+  
