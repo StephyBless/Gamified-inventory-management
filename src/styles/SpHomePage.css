@@ -1,0 +1,22 @@
+.sphome-container {
+    background-color: #fff5f9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #d63384;
+    text-align: center;
+  }
+  
+  .sphome-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sphome-container p {
+    font-size: 1.5rem;
+  }
+  
+  

@@ -1,0 +1,157 @@
+.task-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #2b2d42);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    max-width: 600px;
+}
+
+.task-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.task-item:hover {
+    transform: scale(1.03);
+}
+
+.status {
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.approved .status {
+    background: #4caf50;
+    color: white;
+}
+
+.approve-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.approve-btn:hover {
+    background: #0056b3;
+}
+
+.no-tasks {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffcc00;
+}
+.task-wrapper {
+    background-color: #f0f8ff; /* Your preferred background color */
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .task-layout {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+  }
+  .task-background-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* You can change this as needed */
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.9; /* Optional: makes it blend subtly */
+  }
+  
+  .task-gif-wrapper {
+    flex: 1; /* Takes 50% of screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef6e4; /* Optional: light bg for GIF side */
+    overflow: hidden;
+  }
+  
+  .task-gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content Box */
+  .task-page {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    margin-left: 50%; /* Pushes it to right half */
+    padding: 2rem;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .task-item {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .approve-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .no-tasks {
+    font-size: 1.2rem;
+    color: #333;
+  }
