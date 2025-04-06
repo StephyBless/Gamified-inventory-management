@@ -44,7 +44,7 @@ From task assignments and progress tracking to reward unlocks and spin-wheel bon
 
 ---
 
-## 🧑‍🤝‍🧑 Team Code Crafters
+## 🧑‍🤝‍🧑 Team ALPHA NERDS
 
 | Name            | Role              | Contributions                              |
 |-----------------|-------------------|---------------------------------------------|
