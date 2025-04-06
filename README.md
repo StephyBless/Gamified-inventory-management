@@ -51,11 +51,8 @@ From task assignments and progress tracking to reward unlocks and spin-wheel bon
 | Stephy Bless    | Frontend & Backend Developer | UI Design, MongoDB Integration, Gamification |
 | Mahalakshmi     | UI/Style Specialist | Tailwind Styling, Animations, Page Layouts  |
 | Suwetha         | Data Gatherer & Designer | Design Elements, Content Planning, Data Support |
-| [Add Member 4]  | Fullstack Developer| Task Approval Logic, Rewards System         |
 
-> 💡 *Feel free to update your team members above!*
 
----
 
 ## 🏗️ Folder Structure
 
@@ -76,10 +73,16 @@ From task assignments and progress tracking to reward unlocks and spin-wheel bon
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/464726f3-3dc3-42c1-8adc-bd228a9a7db4)
+![image](https://github.com/user-attachments/assets/5697c6fe-31d0-4c6c-b0a9-362314660908)
+![image](https://github.com/user-attachments/assets/1c7c0f16-5f85-40ed-af84-419d7c0f037c)
+![image](https://github.com/user-attachments/assets/d7459720-19ef-40b8-8353-4e3d0ca5a3b1)
+![image](https://github.com/user-attachments/assets/5c7433be-3879-444c-b399-111e63aa99f0)
 
-> *(Include some awesome screenshots of your Challenges Page, Rewards Page, Spin Wheel, Performance Graphs, etc.)*
 
----
+
+
+
 
 ## 🧩 Future Enhancements
 
@@ -94,9 +97,9 @@ From task assignments and progress tracking to reward unlocks and spin-wheel bon
 
 If you'd like to contribute, collaborate or have questions:
 
-📧 stephybless@example.com  
+📧 stephybless11@gmail.com  
 🔗 [GitHub: @StephyBless](https://github.com/StephyBless)
 
 ---
 
-> *Built with 💖 by Team Code Crafters*
+> *Built with 💖 by Team ALPHA NERDS*
